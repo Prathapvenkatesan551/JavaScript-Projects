@@ -1,0 +1,47 @@
+#game-img{
+    height: 200px;
+}
+#under{
+    padding: 30px;
+}
+button{
+    background-color:black;
+    padding: 20px;
+    border-radius: 10%;
+    cursor: pointer;
+    margin-inline-start: 50px;
+}
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(224,148,233,1) 100%);   
+}
+.para{
+    font-size: 50px;
+    font-weight: 1000;
+}
+.score{
+    background-color: rgb(34, 215, 185);
+    padding: 50px;
+    width: 300px;
+    border-radius: 5%;
+    border: none;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+}
+h1{
+    font-size: 100px;
+}
+.container{
+    margin: 15vh 20vh 15vh 40vh;
+    padding: 50px;
+    /* background-color: aliceblue; */
+    border-radius: 10%;
+    width: 900px;
+    height: 900px;
+    text-align: center;
+   
+}
+.scoreBoard{
+    font-size: 40px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone paper scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stone paper scissor</h1>
+        <button class="stone" onclick="
+        const computer1=Auto();
+        let res='';
+        turns++;
+        if(computer1=='stone')
+        {
+            draw++;
+            res='Draw';
+        }
+        else if(computer1=='paper')
+        {
+            win++;
+            res='You Win';
+        }
+        else{
+            lose++;
+            res='You Lose';
+        }
+        const element=document.querySelector('.para');
+        element.innerHTML=res;
+        ">
+            <img src="/Stone-Papper-scissor/rock-emoji.png" id="game-img" alt="Stone">
+            
+        </button class="" >
+    
+         
+         <button><img src="/Stone-Papper-scissor/paper-emoji.png" onclick="
+         const computer2=Auto();
+         let res2='';
+         turns++;
+         if(computer2=='stone')
+        {
+            lose++;
+            res2='You Lose';
+        }
+        else if(computer2=='paper')
+        {
+            draw++;
+            res2='Draw';
+        }
+        else{
+            win++;
+            res2='You Win';
+        }
+        const element=document.querySelector('.para');
+        element.innerHTML=res2;
+         " id="game-img" alt=""></button>
+         <button><img src="/Stone-Papper-scissor/scissors-emoji.png" 
+            onclick="
+            const computer3=Auto();
+            turns++;
+            let res3='';
+        if(computer3=='stone')
+        {
+            lose++;
+            res3='You Lose';
+        }
+        else if(computer3=='paper')
+        {
+            win++;
+            res3='You Win';
+        }
+        else{
+            draw++;
+            res3='Draw';
+        }
+        const element=document.querySelector('.para');
+        element.innerHTML=res3;
+                "
+            id="game-img" alt=""></button>
+         <p class="para">START PLAY THE GAME</p>
+         <div>
+            <button class="score" onclick="
+                const scoreElement=document.querySelector('.scoreBoard');
+                scoreElement.innerHTML='Total turns : '+turns+' Wins : '+win+' Lose : '+lose+' Draws : '+draw;
+                ">Scores</button>
+                <p class="scoreBoard"></p>
+         </div>
+    </div>
+    <script src="/Stone-Papper-scissor/script.js"></script>
+</body>
+</html>
