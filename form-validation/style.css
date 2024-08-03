@@ -56,11 +56,13 @@ button{
 input:focus{
     outline: 0;
 }
-.input-field success input{
-    color: rgb(0, 255, 98);
+.input-field.success input {
+   border-color: rgb(116, 92, 193);
+   /* background-color: rgb(180, 223, 203); */
 }
 .input-field .error{
     font-size: 30px;
    text-align: right;
+   border-color: red;
     color: red;
 }
