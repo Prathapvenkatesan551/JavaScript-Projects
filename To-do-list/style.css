@@ -1,0 +1,33 @@
+.to-do-list{
+    margin: 40vh;
+   
+}
+input
+{
+    width: 400px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: black; */
+    color: black;
+    padding: 6px;
+    font-size: 25px;
+}
+button{
+    width: 100px;
+    height: 55px;
+    padding: 6px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    border-radius: 6px;
+    border-color: greenyellow;
+    background-color: aqua;
+    cursor: pointer;
+    font-weight: 70px;  
+    
+}
+ .para{
+    display: grid;
+    grid-template-columns: 200px 200px; 
+ }
+
