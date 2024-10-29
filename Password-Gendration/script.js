@@ -20,6 +20,11 @@ element.value=result;
 }
 
 function copy(){
-    element.select();
-    document.execCommand("copy");
+    copyText(result);
+}
+
+function copyText(result) {
+    navigator.clipboard.writeText(result).catch((err) => {
+        console.error("Failed to copy text: ", err);
+    });
 }

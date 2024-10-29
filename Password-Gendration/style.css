@@ -1,6 +1,13 @@
+html,body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+
+}
 .div{
     background-color: rgb(60, 82, 82);
-    height: 500px;
+    border-radius: 10px;
+    height: 300px;
     width: 70%;
     display: flex;
     align-items: center;
@@ -12,6 +19,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+
 
 }
 h1{
@@ -31,4 +39,15 @@ input{
     border: none;
     cursor: pointer;
     background-color: aquamarine;
+}
+.gen{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(211, 102, 72);
+    width: 200px;
+    height: 40px;
 }
