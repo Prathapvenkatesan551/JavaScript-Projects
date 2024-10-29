@@ -21,6 +21,7 @@ element.value=result;
 
 function copy(){
     copyText(result);
+    element.value="";
 }
 
 function copyText(result) {
