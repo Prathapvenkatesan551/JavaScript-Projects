@@ -6,7 +6,6 @@ userInp.max=new Date().toISOString().split("T")[0];
 
 res.addEventListener("click",()=>{
     let dd=userInp.value;
-    console.log(dd);
     show.innerHTML=`<p>${calculateAge(dd)}</p>` ;
 })
 function calculateAge(dob) {
